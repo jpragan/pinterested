@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 ruby '2.3.0'
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -13,8 +15,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.7', '>= 2.7.8'
-gem 'jquery-turbolinks'
-gem 'masonry-rails', '~> 0.2.4'
+
+
 
 
 group :development, :test do

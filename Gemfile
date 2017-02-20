@@ -13,7 +13,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.7', '>= 2.7.8'
-gem 'jquery-turbolinks', '~> 2.1'
+gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
 
 

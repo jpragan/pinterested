@@ -22,15 +22,16 @@
         <%= pin.description %><br/>
       </div>
         <% if pin.user == current_user %> 
-       <%= link_to 'Edit', edit_pin_path(pin) %><br/>
+        <%= link_to 'Edit', edit_pin_path(pin) %><br/>
         <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %><br/>
         <% end %>
         </div>
     <% end %>
+    <%= link_to 'New Pin', new_pin_path , class: 'btn btn-default'%>
 </div>
 </div>
 </div>
 
 <br/>
 
-<%= link_to 'New Pin', new_pin_path , class: 'btn btn-default'%>
+
